@@ -4,7 +4,7 @@ public class main {
 	public static void programRun() {
 		Scanner myScanner = new Scanner(System.in);
 		System.out.println("Enter 'ideal' for an ideal gas law problem or 'avogadro' for an Avogadro's law problem, or enter 'exit' to stop the program.");
-		String input = myScanner.nextLine();
+		String input = myScanner.nextLine(); //this one sets up the inputs
 		if(input.equalsIgnoreCase("ideal")) {
 			float answer = 0; //solving for this
 			System.out.println("Formula: (P1*V1)/T1 = (P2*V2)/T2. Enter '' if the variable is constant");

@@ -66,6 +66,6 @@ public class main {
 	}
 	public static void main(String[] args) {
 		programRun();
-	}
+	} //dont look at this
 }
 
